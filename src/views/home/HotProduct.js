@@ -8,7 +8,7 @@ class HotProduct extends Component {
   render () {
     return (
       <div className="home-hotProduct">
-        <ProductNav />
+        <ProductNav title="热门推荐" />
         <div className="prodcut-item-wrap">
           <ProductItem />
           <ProductItem />
