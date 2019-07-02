@@ -12,6 +12,7 @@ h1{
     height:1.54rem;
     img{
       height: 100%;
+      width: 100%
     }
   }
   .wrap-bg{
@@ -36,6 +37,7 @@ h1{
     display: flex;
     justify-content: left;
     flex-wrap: wrap;
+
     li{
       width:45%;
       margin: 0.3rem 0.18rem 0;
@@ -52,8 +54,6 @@ h1{
         display: inline-block;
         padding-left: 0.2rem;
         text-align: left;
-        
-
         .money{
           padding-top: 0.25rem;
           font-size: 0.3rem;
@@ -70,7 +70,19 @@ h1{
           display: block;
           
         }
-        }
+      }
+      .invest_num{
+        font-size: 0.3rem;
+        text-align: center;
+        display: block;
+        line-height:0.4rem;
+        margin-top: 0.25rem;
+      }
+      .invest_people{
+        font-size: 0.24rem;
+        text-align: center;
+        color: #92969C;
+      }
     }
   }
   .wrap-bg{
@@ -82,7 +94,48 @@ h1{
       font-size: 0.2rem;
       display:block;
       text-align: center;
-
+    }
+    .turnover{
+      font-size: 0.32rem;
+      text-align: center;
+      line-height: 0.5rem;
+      font-weight: 900;
+    }
+    .chart{
+      padding: 0.31rem 0.3rem 0;
+      margin-left: -0.4rem;
+      height:3rem;
+    }
+    .ant-tabs-nav .ant-tabs-tab{
+      font-size: 0.24rem; 
+      margin: 0 0.3rem;
+      line-height:0.84rem;
+      padding: 0;
+    }
+    .ant-tabs-ink-bar,{
+      background-color: #FE6246;
+    }
+    .ant-tabs-tab:hover{
+      color:#FE6246
+    }
+     .ant-tabs-tab-active{
+      color:#FE6246
+     }
+     .ant-tabs-content {
+       height: 8rem;
+   
+      padding: 0
+    }
+     
+  }
+  .message{
+    margin:0.2rem 0; 
+  }
+  .link-area{
+    height: 3.22rem;
+    img{
+      width: 100%;
+      height: 100%;
     }
   }
 }
