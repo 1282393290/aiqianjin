@@ -1,0 +1,19 @@
+.home-header {
+  height: .76rem;
+  box-shadow: 0 2px 20px 0 rgba(183,183,190,.25);
+  .home-header-inner {
+    height: 100%;
+    padding: 0 0.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+      height: .4rem;
+      padding: .1rem;
+      img {
+        height: 100%;
+        width: 1.3rem;
+      }
+    }
+  }
+}
