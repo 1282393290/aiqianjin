@@ -1,0 +1,19 @@
+.product-nav {
+  display: flex;
+  justify-content: space-between;
+  height: .34rem;
+  line-height: .34rem;
+  padding: .48rem 0 .2rem;
+  box-sizing: content-box;
+  h4 {
+    font-size: .34rem;
+    color: #000;
+    font-weight: bold;
+  }
+  .more-view {
+    font-size: .24rem;
+    span {
+      margin-right: .16rem;
+    }
+  }
+}
