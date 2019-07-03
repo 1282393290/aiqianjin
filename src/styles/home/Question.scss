@@ -1,10 +1,12 @@
 .home-question {
   padding: 0 .4rem;
-  border-bottom: .2rem solid #f8f8f9;
+  border-bottom: .2rem solid #fff;
   .news {
     padding: .32rem 0 .4rem .34rem;
     box-shadow: 0 2px .2rem 0 rgba(183,183,190,.25);
     border-radius: .08rem;
+    background: #fff;
+    margin: .1rem;
     .title {
       background: linear-gradient(to right,#4d4e5f,#81818d);
       color: #fff;

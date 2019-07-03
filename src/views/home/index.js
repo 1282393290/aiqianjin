@@ -4,6 +4,8 @@ import Lbt from './Lbt'
 import IntroNav from './IntroNav'
 import HotProduct from './HotProduct'
 import Question from './Question'
+import MorePro from './MorePro'
+import Footer from './Footer'
 import '@/styles/home/index.scss'
 
 class Home extends Component {
@@ -15,6 +17,8 @@ class Home extends Component {
         <IntroNav />
         <HotProduct />
         <Question />
+        <MorePro />
+        <Footer />
       </div>
     )
   }
