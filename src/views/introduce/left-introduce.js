@@ -1,10 +1,81 @@
 import React, { Component } from 'react'
+import {
+  G2,
+  Chart,
+  Geom,
+  Axis,
+  Tooltip,
+  Coord,
+  Label,
+  Legend,
+  View,
+  Guide,
+  Shape,
+  Facet,
+  Util
+} from "bizcharts";
+import "@/styles/introduce/leftintroduce.scss"
 
 export default class Leftintroduce extends Component {
   render() {
+      const data = [
+        {
+          year: "1",
+          sales: 45.58
+        },
+        {
+          year: "2",
+          sales: 39
+        },
+        {
+          year: "3",
+          sales: 47
+        },
+        {
+          year: "4",
+          sales: 49
+        },
+        {
+          year: "5",
+          sales: 54
+        },
+        {
+          year: "6",
+          sales: 52
+        },
+        {
+          year: "7",
+
+        },
+        {
+          year: "8",
+
+        },
+        {
+          year: "9",
+
+        },
+        {
+          year: "10",
+
+        },
+        {
+          year: "11",
+
+        },
+        {
+          year: "12",
+
+        }
+      ];
+      const cols = {
+        sales: {
+          tickInterval: 10
+        }
+      }
     return (
           <div className="mian-tet">
-          {/* 第一个模块 */}
+          {/* 平台资料 */}
               <div className="mian-top">
                 <div className="mian-img">
                   <i><img src="./imgs/img01.png" alt=""/></i>
@@ -14,7 +85,9 @@ export default class Leftintroduce extends Component {
 
                   <li><span>平台信息</span></li>
                   <li><span>收费标准</span></li>
-                  <li><a href="https://www.iqianjin.com/event/regProtocol.jsp">用户注册协议</a></li>
+                  <li><a href="https://www.iqianjin.com/event/regProtocol.jsp">
+                  <span>用户注册协议</span>
+                  </a></li>
                 </ul>
               </div>
           {/* 文字模块 */}
@@ -29,11 +102,11 @@ export default class Leftintroduce extends Component {
                 </div>
                 <p className="intro-zankai"><span>展开</span></p>
               </div>
-
+                 {/* 平台数据 */}
               <div className="mian-top">
                 <div className="mian-img">
                   <i><img src="./imgs/img02.png" alt=""/></i>
-                  <p>平台资料</p>
+                  <p>平台数据</p>
                 </div>
                 <ul className="box-bottom">
 
@@ -51,10 +124,91 @@ export default class Leftintroduce extends Component {
                   </li>
                 </ul>
               </div>
+              {/* 数据条 */}
+                <div className="graph ">
+                <Chart height={250} data={data} scale={cols} forceFit>
+                <Axis name="year" />
+                <Axis name="sales" />
+                <Tooltip
+                crosshairs={{
+                  type: "y"
+                }}
+          />
+          <Geom type="interval" position="year*sales" />
+        </Chart>
+                </div>
+                {/* 荣誉奖项 */}
+                <div className="honor">
 
 
 
-          </div>
+                {/* 圈圈 */}
+                  <div className="honorCircle">
+                    <div className="honor-qq"></div>
+
+
+                  </div>
+
+                </div>
+              {/* 团队介绍 */}
+              <div className="mian-top">
+                <div className="mian-img">
+                  <i><img src="./imgs/img01.png" alt=""/></i>
+                  <p>团队介绍</p>
+                </div>
+                <ul className="box-bottom">
+
+                  <li><span>管理团队</span></li>
+                  <li><span>组织架构</span></li>
+                  <li><span>员工概况</span></li>
+                </ul>
+              </div>
+
+
+        {/* 关于我们 */}
+        <div className="mian-top">
+                <div className="mian-img">
+                  <i><img src="./imgs/img01.png" alt=""/></i>
+                  <p>关于我们</p>
+                </div>
+                <ul className="box-bottom">
+
+                  <li><span>联系我们</span></li>
+                  <li><span>办公环境</span></li>
+                </ul>
+              </div>
+        {/* 底部签名图 */}
+        <img
+        className="pilou"
+        src="./imgs/qianming.png" alt=""/>
+
+        {/* 底部电话号码 */}
+        <div className="base-content-2">
+          <ul>
+            <li>
+                <dl
+                  className="clipboard-btn">
+                  <dt>官方电话</dt>
+                  <dd>400-812-8808</dd>
+                </dl>
+            </li>
+            <li>
+              <dl  className="clipboard-btn qq">
+                <dt>官方微信</dt>
+                <dd>iqianjinguanfang</dd>
+              </dl>
+            </li>
+            <li>
+             <dl className="clipboard-btn  ww">
+                <dt>官方网站</dt>
+                <dd>www.iqianjin.com</dd>
+              </dl>
+            </li>
+          </ul>
+        </div>
+
+
+    </div>
     )
   }
 }

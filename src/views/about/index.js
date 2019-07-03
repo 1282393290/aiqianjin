@@ -123,8 +123,8 @@ class About extends Component {
               <img src="//images.iqianjin.com/mimages/mobile/about/disclosure/nianbao.jpg" alt=""/>
           </NavLink>
         </div>
-       
-             
+
+
       </div>
     )
   }
