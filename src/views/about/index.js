@@ -5,6 +5,13 @@ import Message from './message.js'
 import  Trigger from './trigger.js'
 import { NavLink} from 'react-router-dom'
 class About extends Component {
+  componentDidMount(){
+    fetch("borrowerInfo/borrowerCountLP?_=1562158919524")
+    .then(response=>response.json())
+    .then(res=>{
+      console.log(res)
+    })
+  }
   render() {
     return (
       <div className='ui-page'>
