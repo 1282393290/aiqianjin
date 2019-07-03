@@ -6,6 +6,7 @@ import HotProduct from './HotProduct'
 import Question from './Question'
 import MorePro from './MorePro'
 import Footer from './Footer'
+import LoginRegister from './LoginRegister'
 import '@/styles/home/index.scss'
 
 class Home extends Component {
