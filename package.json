@@ -5,6 +5,7 @@
   "dependencies": {
     "antd": "^3.20.0",
     "babel-plugin-import": "^1.12.0",
+    "bizcharts": "^3.5.4",
     "customize-cra": "^0.2.14",
     "node-sass": "^4.12.0",
     "react": "^16.8.6",
@@ -34,5 +35,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@antv/data-set": "^0.10.2"
   }
+ 
 }
