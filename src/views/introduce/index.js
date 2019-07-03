@@ -1,7 +1,13 @@
 import React, {Component} from 'react'
 import Leftintroduce from './left-introduce'
+
+
 import "@/styles/base.scss"
 import "@/styles/introduce/index.scss"
+import "@/styles/introduce/leftintroduce.scss"
+import { Tabs } from 'antd'
+
+const { TabPane } = Tabs
 
 class Introduce extends Component {
   render () {
@@ -13,35 +19,27 @@ class Introduce extends Component {
         <ul className="brands-tab">
           <li><span>平台介绍</span></li>
           <li><span>信息披露</span></li>
+          {/* <Tabs defaultActiveKey="1">
+            <TabPane tab="平台介绍"
+
+              key="1" >
+            < Leftintroduce />
+            </TabPane>
+            <TabPane tab="信息披露"
+             key="2"
+             >
+               Content of Tab Pane 2
+            </TabPane>
+          </Tabs>, */}
+
         </ul>
 
-        <div className="mian">
-          < Leftintroduce />
+        <div >
 
 
 
-          <div class="base-content-2">
-          <ul>
-            <li>
-                  <dl data-clipboard-text="400-812-8808" class="clipboard-btn">
-                  <dt>官方电话</dt>
-                  <dd>400-812-8808</dd>
-                  </dl>
-                  </li>
-                  <li>
-                    <dl data-clipboard-text="iqianjinguanwang" class="clipboard-btn">
-                    <dt>官方微信</dt>
-                    <dd>iqianjinguanfang</dd>
-                    </dl>
-                    </li>
-                    <li>
-                      <dl data-clipboard-text="www.iqianjin.com" class="clipboard-btn">
-                      <dt>官方网站</dt>
-                      <dd>www.iqianjin.com</dd>
-                      </dl>
-                      </li>
-                    </ul>
-                  </div>
+      < Leftintroduce />
+
 
         </div>
 
