@@ -1377,6 +1377,16 @@
     lodash.unescape "4.0.1"
     semver "5.5.0"
 
+"@vant/icons@1.1.9":
+  version "1.1.9"
+  resolved "https://registry.npm.taobao.org/@vant/icons/download/@vant/icons-1.1.9.tgz#37eafdaff5fcfbb594a27a1470ff3adeb2fa0301"
+  integrity sha1-N+r9r/X8+7WUonoUcP863rL6AwE=
+
+"@vue/babel-helper-vue-jsx-merge-props@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.npm.taobao.org/@vue/babel-helper-vue-jsx-merge-props/download/@vue/babel-helper-vue-jsx-merge-props-1.0.0.tgz#048fe579958da408fb7a8b2a3ec050b50a661040"
+  integrity sha1-BI/leZWNpAj7eosqPsBQtQpmEEA=
+
 "@webassemblyjs/ast@1.8.5":
   version "1.8.5"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.8.5.tgz#51b1c5fe6576a34953bf4b253df9f0d490d9e359"
@@ -10822,6 +10832,16 @@ value-equal@^0.4.0:
   resolved "https://registry.npm.taobao.org/value-equal/download/value-equal-0.4.0.tgz#c5bdd2f54ee093c04839d71ce2e4758a6890abc7"
   integrity sha1-xb3S9U7gk8BIOdcc4uR1imiQq8c=
 
+vant@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.npm.taobao.org/vant/download/vant-2.0.4.tgz#5672b7fedb651bdcbf0a2296ffb269be12662494"
+  integrity sha1-VnK3/ttlG9y/CiKW/7JpvhJmJJQ=
+  dependencies:
+    "@babel/runtime" "^7.4.5"
+    "@vant/icons" "1.1.9"
+    "@vue/babel-helper-vue-jsx-merge-props" "^1.0.0"
+    vue-lazyload "1.2.3"
+
 vary@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
@@ -10883,6 +10903,11 @@ vm-browserify@0.0.4:
   integrity sha1-XX6kW7755Kb/ZflUOOCofDV9WnM=
   dependencies:
     indexof "0.0.1"
+
+vue-lazyload@1.2.3:
+  version "1.2.3"
+  resolved "https://registry.npm.taobao.org/vue-lazyload/download/vue-lazyload-1.2.3.tgz#901f9ec15c7e6ca78781a2bae4a343686bdedb2c"
+  integrity sha1-kB+ewVx+bKeHgaK65KNDaGve2yw=
 
 w3c-hr-time@^1.0.1:
   version "1.0.1"

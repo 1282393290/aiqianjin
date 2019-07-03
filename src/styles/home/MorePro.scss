@@ -1,0 +1,19 @@
+.home-morePro {
+  padding: 0 .4rem;
+  li {
+    .morePro-item {
+      display: block;
+      font-size: .34rem;
+      line-height: .34rem;
+      padding: .48rem 0;
+      border-bottom: 1px solid #ededef;
+      &::after {
+        display: inline-block;
+        content: ">";
+        float: right;
+        width: .12rem;
+        height: .21rem;
+      }
+    }
+  }
+}
