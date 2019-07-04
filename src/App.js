@@ -1,19 +1,19 @@
-import React, { Component } from 'react'
-import {HashRouter as Router, Route, NavLink,Switch} from 'react-router-dom'
-import {Home, About, Introduce} from './views'
+import { connect } from 'react-redux'
+import AppUi from './ui'
 
-class App extends Component {
-  render () {
-    return (
-        <Router>
-           <Switch>
-            <Route component={About} path="/about"/>
-            <Route component={Introduce} path="/introduce"/>
-            <Route component={Home} path="/"/>
-           </Switch>
-        </Router>
-    )
+const mapStateToProps = state => {
+  return {
+    name: "沈萌",
+    date: state
   }
 }
 
-export default App
+const mapDispatchToProps = dispatch => {
+  return {
+    onShow () {
+      console.log(111)
+    }
+  }
+}
+
+export default connect(mapStateToProps,mapDispatchToProps)(AppUi)

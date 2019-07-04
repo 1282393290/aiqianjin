@@ -1,4 +1,4 @@
-import {createStore} from 'react-redux'
+import {createStore} from 'redux'
 import finalReducer from './reducers'
 
-export const store = createStore(finalReducer)
+export default createStore(finalReducer)
