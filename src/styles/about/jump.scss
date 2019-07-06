@@ -1,0 +1,51 @@
+.iqj-question-index{
+ 
+  color: #4a4b5c;
+  overflow: hidden;
+  .wrap {
+    margin-top:.76rem;
+    padding: 0 .4rem;
+    color: #4a4b5c;
+    h1{
+      display: block;
+      font-size: 0.64rem;
+      font-weight: 500;
+      padding: .56rem 0 .16rem 0;
+      box-sizing: border-box;
+      background: #fff;
+    }
+    ul li{
+      padding-bottom: .3rem;
+      border-bottom: 1px solid #ededef;
+      .p1{
+        margin: .4rem 0 .36rem;
+        .s1{
+          height: .32rem;
+          font-size: .32rem;
+          font-weight: 500;
+          line-height: .32rem;
+        }
+        .s2{
+          position: relative;
+          top: 0.06remx;
+          height: .24rem;
+          font-size: .24rem;
+          font-weight: 400;
+          color: rgba(74,75,92,.4);
+          line-height: .24rem;
+          float: right;
+          padding-right: .22rem;
+        }
+      }
+      .p2{
+          height: .35rem;
+          overflow: hidden;
+          font-size: .24rem;
+          font-weight: 400;
+          opacity: .7;
+        
+          margin-bottom: .06rem;
+      }
+    }
+  }
+}
