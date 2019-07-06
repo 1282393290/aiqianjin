@@ -19,6 +19,18 @@
     display: flex;
     position: relative;
     z-index: 10;
+    .ant-tabs-nav{
+      display:block;
+      width:100%;
+
+    }
+    .ant-tabs-tab{
+      display: inline-block;
+      width: 50%;
+      text-align: center;
+      margin-right:0;
+    }
+
     li{
       flex:1;
       text-align: center;

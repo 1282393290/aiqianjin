@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import Leftintroduce from './left-introduce'
+import Rightintroduce from  './right-introduce'
 
 
 import "@/styles/base.scss"
@@ -17,10 +18,12 @@ class Introduce extends Component {
           <img src="./imgs/banner.png" alt=""/>
         </div>
         <ul className="brands-tab">
-          <li><span>平台介绍</span></li>
-          <li><span>信息披露</span></li>
-          {/* <Tabs defaultActiveKey="1">
+          {/* <li><span>平台介绍</span></li>
+          <li><span>信息披露</span></li> */}
+          <Tabs defaultActiveKey="1"
+        >
             <TabPane tab="平台介绍"
+
 
               key="1" >
             < Leftintroduce />
@@ -28,18 +31,22 @@ class Introduce extends Component {
             <TabPane tab="信息披露"
              key="2"
              >
-               Content of Tab Pane 2
+             <Rightintroduce/>
+
             </TabPane>
-          </Tabs>, */}
+          </Tabs>,
 
         </ul>
+
 
         <div >
 
 
+      {/* 平台介绍组件 */}
+      {/* < Leftintroduce /> */}
 
-      < Leftintroduce />
-
+      {/* 信息披露组件 */}
+      {/* <Rightintroduce/> */}
 
         </div>
 
