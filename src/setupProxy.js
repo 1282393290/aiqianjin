@@ -17,6 +17,13 @@ module.exports = function(app) {
      "^/borrowerInfo": "/"
     },
  }));
- 
+ app.use(proxy("/question", { 
+  target: "https://m.iqianjin.com/question/" ,
+  secure: false,
+  changeOrigin: true,
+  pathRewrite: {
+   "^/question": "/"
+  },
+}));
    
 }
