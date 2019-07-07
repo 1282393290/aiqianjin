@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import '@/styles/home/MorePro.scss'
 
+
 class MorePro extends Component {
   render () {
     return (

@@ -1,0 +1,110 @@
+
+.icon-fxkz{
+  background-size:50%;
+  background-image: url(../../assets/fengxian.png);
+}
+//
+.mian-right{
+  height:100%;
+  padding-top:.7rem;
+  .mian-top{
+    background-color: #fff;
+    border-radius: .08rem;
+    border: 1px solid #ededef;
+    margin: 0 .4rem .3rem;
+    .mian-img{
+      height: 2.2rem;
+      text-align: center;
+    .icon-fxkz{
+      background-size:50%;
+      background-image: url(../../assets/fengxian.png);
+    }
+    .icon-ditu{
+      background-size:50%;
+      background-image: url(../../assets/yinhang.png);
+    }
+    .icon-renzheng{
+      background-size:50%;
+      background-image: url(../../assets/renzheng.png);
+    }
+    .icon-qita{
+      background-size:50%;
+      background-image: url(../../assets/qita.png);
+    }
+    .icon-baogao{
+      background-size:50%;
+      background-image: url(../../assets/baogao.png);
+    }
+        i{
+          display: inline-block;
+          margin: .38rem 0 .25rem;
+          width: .9rem;
+          height: .9rem;
+          border-radius: 50%;
+          background:#4a4a5b 50% no-repeat;
+
+        }
+        p{
+          font-size: .3rem;
+        }
+    }
+  }
+//资料介绍
+.box-bottom{
+  display: flex;
+  margin: .15rem 0 .48rem;
+  li{
+    flex: 1;
+    text-align: center;
+    position: relative;
+    font-size: .24rem;
+    p{
+      margin-bottom: .14rem;
+
+    }
+  }
+}
+//ditu
+.base-content{
+  margin-bottom: .4rem;
+  padding: 0 .4ren .4rem;
+  .fengxian-img{
+    height:4.18rem;
+    background: url(../../assets/ditu.png) 50% no-repeat;
+    background-size: contain;
+    margin-bottom: .4rem;
+  }
+  h2{
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: .2rem;
+  }
+  p{
+    line-height: 1.5;
+
+  }
+
+}
+//用户图
+.base-content{
+  text-align: center;
+  padding: 0 .4rem;
+  img{
+    width:4.28rem;
+    height:2.56rem;
+    vertical-align: top;
+    margin-bottom: .37rem;
+  }
+}
+//底部签名
+.pilou {
+  width: 100%;
+  padding: 0 .4rem .4rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
+
+}
