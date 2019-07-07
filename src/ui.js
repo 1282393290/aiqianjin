@@ -5,7 +5,7 @@ import {Home, About, Introduce,Jump} from './views'
 class AppUi extends Component {
   constructor (props) {
     super(props)
-    console.log(props)
+    //console.log(props)
   }
   render () {
     return (
