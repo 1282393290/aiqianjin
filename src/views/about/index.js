@@ -126,7 +126,7 @@ class About extends Component {
             <Message />
         </div>
         <div className="link-area">
-          <NavLink>
+          <NavLink to="#/">
               <img src="//images.iqianjin.com/mimages/mobile/about/disclosure/nianbao.jpg" alt=""/>
           </NavLink>
         </div>

@@ -1,6 +1,9 @@
 .home-question {
   padding: 0 .4rem;
   border-bottom: .2rem solid #fff;
+  .swiper-pagination {
+    display: none;
+  }
   .news {
     padding: .32rem 0 .4rem .34rem;
     box-shadow: 0 2px .2rem 0 rgba(183,183,190,.25);
@@ -28,6 +31,13 @@
         line-height: .22rem;
         text-shadow: 0 0 .1rem #ffdeb2;
         margin-right: .08rem;
+      }
+      .ellipsis {
+        display: inline-block;
+        max-width: 4.5rem;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
       }
     }
   }

@@ -15,19 +15,19 @@ class IntroNav extends Component {
           <li>
             <Link to="/about" className="nav-item">
               <i className="iconfont icon-fengxiankongzhix"></i>
-              <span>稳定运营</span>
+              <span>银行存管</span>
             </Link>
           </li>
           <li>
             <Link to="/about" className="nav-item">
               <i className="iconfont icon-fengxiankongzhix"></i>
-              <span>稳定运营</span>
+              <span>风险控制</span>
             </Link>
           </li>
           <li>
             <Link to="/about" className="nav-item">
               <i className="iconfont icon-fengxiankongzhix"></i>
-              <span>稳定运营</span>
+              <span>平台介绍</span>
             </Link>
           </li>
         </ul>

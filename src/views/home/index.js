@@ -1,28 +1,18 @@
-import React, {Component} from 'react'
-import Header from './Header'
-import Lbt from './Lbt'
-import IntroNav from './IntroNav'
-import HotProduct from './HotProduct'
-import Question from './Question'
-import MorePro from './MorePro'
-import Footer from './Footer'
-import LoginRegister from './LoginRegister'
-import '@/styles/home/index.scss'
+import { connect } from 'react-redux'
+import HomeUi from './HomeUi'
+import { getAsyncScrollList,getAsyncAiYinBaoList,getAsyncBannerList,getAsyncQuestionList } from '@/store/actions/home'
 
-class Home extends Component {
-  render () {
-    return (
-      <div id="page-home">
-        <Header />
-        <Lbt />
-        <IntroNav />
-        <HotProduct />
-        <Question />
-        <MorePro />
-        <Footer />
-      </div>
-    )
+const mapStateToProps = state => {
+  return {
+    data: state
   }
 }
 
-export default Home
+export default connect(
+  mapStateToProps,
+  { 
+    getAsyncBannerList,
+    getAsyncQuestionList,
+    getAsyncScrollList,
+    getAsyncAiYinBaoList
+  })(HomeUi)
